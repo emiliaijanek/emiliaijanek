@@ -11,10 +11,19 @@
     padding:0;
     box-sizing:border-box;
 }
-<audio autoplay loop>
-    <source src="cemeterydrive.mp3" type="audio/mpeg">
-</audio>
+<button onclick="document.getElementById('music').play()">
+
+    Włącz naszą piosenkę ❤️
+
+</button>
+
     
+
+<audio id="music" loop>
+
+    <source src="cemeterydrive.mp3" type="audio/mpeg">
+
+</audio>
 body{
     height:100vh;
     overflow:hidden;
